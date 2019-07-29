@@ -1,0 +1,38 @@
+Apr 23 15:41:40  [info] Running task: Cleanup old files
+
+Apr 23 15:41:40  [info] Running task: Checking extensions
+
+Apr 23 15:41:40  [info] Running task: Begin Upgrade to 5.10.alpha1
+
+Apr 23 15:41:40  [info] Running task: Upgrade DB to 5.10.alpha1
+
+Apr 23 15:41:40  [info] Running task: Finish Upgrade DB to 5.10.alpha1
+
+Apr 23 15:41:43  [info] Running task: Begin Upgrade to 5.10.beta1
+
+Apr 23 15:41:43  [info] Running task: Upgrade DB to 5.10.beta1
+
+Apr 23 15:41:43  [info] Running task: Finish Upgrade DB to 5.10.beta1
+
+Apr 23 15:41:45  [info] Running task: Begin Upgrade to 5.11.alpha1
+
+Apr 23 15:41:45  [info] Running task: Upgrade DB to 5.11.alpha1
+
+Apr 23 15:41:45  [info] Running task: Ažurirajte bazu podataka na 5.11.alpha1: SQL
+
+Apr 23 15:41:45  [info] Running task: Update smart groups where jcalendar fields have been converted to datepicker
+
+Apr 23 15:41:45  [info] Running task: Finish Upgrade DB to 5.11.alpha1
+
+Apr 23 15:41:46  [info] Running task: Begin Upgrade to 5.11.beta1
+
+Apr 23 15:41:46  [info] Running task: Upgrade DB to 5.11.beta1
+
+Apr 23 15:41:46  [info] Running task: Finish Upgrade DB to 5.11.beta1
+
+Apr 23 15:41:47  [info] Running task: Begin Upgrade to 5.11.0
+
+Apr 23 15:41:47  [info] Running task: Upgrade DB to 5.11.0
+
+Apr 23 15:41:47  [info] Running task: Finish Upgrade DB to 5.11.0
+

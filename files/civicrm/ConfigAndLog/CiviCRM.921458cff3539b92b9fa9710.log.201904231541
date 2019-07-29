@@ -1,0 +1,116 @@
+Jan 22 15:02:24  [info] Running task: Cleanup old files
+
+Jan 22 15:02:24  [info] Running task: Begin Upgrade to 5.4.alpha1
+
+Jan 22 15:02:24  [info] Running task: Upgrade DB to 5.4.alpha1
+
+Jan 22 15:02:24  [info] Running task: Upgrade DB to 5.4.alpha1: SQL
+
+Jan 22 15:02:24  [info] Running task: Add Cancel Button Setting to the Profile
+
+Jan 22 15:02:24  [info] Running task: Add location_id if missing to group_contact table (affects some older installs CRM-20711)
+
+Jan 22 15:02:24  [info] Running task: dev/core#107 - Add Activity's default assignee options
+
+Jan 22 15:02:24  [info] Running task: Finish Upgrade DB to 5.4.alpha1
+
+Jan 22 15:02:26  [info] Running task: Begin Upgrade to 5.4.beta1
+
+Jan 22 15:02:26  [info] Running task: Upgrade DB to 5.4.beta1
+
+Jan 22 15:02:26  [info] Running task: Finish Upgrade DB to 5.4.beta1
+
+Jan 22 15:02:27  [info] Running task: Begin Upgrade to 5.5.alpha1
+
+Jan 22 15:02:27  [info] Running task: Upgrade DB to 5.5.alpha1
+
+Jan 22 15:02:28  [info] Running task: Finish Upgrade DB to 5.5.alpha1
+
+Jan 22 15:02:29  [info] Running task: Begin Upgrade to 5.5.beta1
+
+Jan 22 15:02:29  [info] Running task: Upgrade DB to 5.5.beta1
+
+Jan 22 15:02:29  [info] Running task: Finish Upgrade DB to 5.5.beta1
+
+Jan 22 15:02:30  [info] Running task: Begin Upgrade to 5.5.3
+
+Jan 22 15:02:30  [info] Running task: Upgrade DB to 5.5.3
+
+Jan 22 15:02:30  [info] Running task: Finish Upgrade DB to 5.5.3
+
+Jan 22 15:02:31  [info] Running task: Begin Upgrade to 5.6.alpha1
+
+Jan 22 15:02:31  [info] Running task: Upgrade DB to 5.6.alpha1
+
+Jan 22 15:02:32  [info] Running task: Finish Upgrade DB to 5.6.alpha1
+
+Jan 22 15:02:33  [info] Running task: Begin Upgrade to 5.6.beta1
+
+Jan 22 15:02:33  [info] Running task: Upgrade DB to 5.6.beta1
+
+Jan 22 15:02:33  [info] Running task: Finish Upgrade DB to 5.6.beta1
+
+Jan 22 15:02:34  [info] Running task: Begin Upgrade to 5.6.beta2
+
+Jan 22 15:02:34  [info] Running task: Upgrade DB to 5.6.beta2
+
+Jan 22 15:02:34  [info] Running task: Upgrade DB to 5.6.beta2: SQL
+
+Jan 22 15:02:34  [info] Running task: dev/core#107 - Add Activity's default assignee options
+
+Jan 22 15:02:34  [info] Running task: Finish Upgrade DB to 5.6.beta2
+
+Jan 22 15:02:36  [info] Running task: Begin Upgrade to 5.7.alpha1
+
+Jan 22 15:02:36  [info] Running task: Upgrade DB to 5.7.alpha1
+
+Jan 22 15:02:36  [info] Running task: Finish Upgrade DB to 5.7.alpha1
+
+Jan 22 15:02:37  [info] Running task: Begin Upgrade to 5.7.beta1
+
+Jan 22 15:02:37  [info] Running task: Upgrade DB to 5.7.beta1
+
+Jan 22 15:02:37  [info] Running task: Finish Upgrade DB to 5.7.beta1
+
+Jan 22 15:02:38  [info] Running task: Begin Upgrade to 5.7.0
+
+Jan 22 15:02:38  [info] Running task: Upgrade DB to 5.7.0
+
+Jan 22 15:02:38  [info] Running task: Finish Upgrade DB to 5.7.0
+
+Jan 22 15:02:39  [info] Running task: Begin Upgrade to 5.8.alpha1
+
+Jan 22 15:02:39  [info] Running task: Upgrade DB to 5.8.alpha1
+
+Jan 22 15:02:39  [info] Running task: Finish Upgrade DB to 5.8.alpha1
+
+Jan 22 15:02:41  [info] Running task: Begin Upgrade to 5.8.beta1
+
+Jan 22 15:02:41  [info] Running task: Upgrade DB to 5.8.beta1
+
+Jan 22 15:02:41  [info] Running task: Finish Upgrade DB to 5.8.beta1
+
+Jan 22 15:02:42  [info] Running task: Begin Upgrade to 5.9.alpha1
+
+Jan 22 15:02:42  [info] Running task: Upgrade DB to 5.9.alpha1
+
+Jan 22 15:02:42  [info] Running task: Finish Upgrade DB to 5.9.alpha1
+
+Jan 22 15:02:43  [info] Running task: Begin Upgrade to 5.9.beta1
+
+Jan 22 15:02:43  [info] Running task: Upgrade DB to 5.9.beta1
+
+Jan 22 15:02:43  [info] Running task: Finish Upgrade DB to 5.9.beta1
+
+Jan 22 15:02:44  [info] Running task: Begin Upgrade to 5.9.0
+
+Jan 22 15:02:44  [info] Running task: Upgrade DB to 5.9.0
+
+Jan 22 15:02:44  [info] Running task: Finish Upgrade DB to 5.9.0
+
+Jan 22 15:02:46  [info] Running task: Begin Upgrade to 5.9.1
+
+Jan 22 15:02:46  [info] Running task: Upgrade DB to 5.9.1
+
+Jan 22 15:02:46  [info] Running task: Finish Upgrade DB to 5.9.1
+

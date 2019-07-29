@@ -1,0 +1,35 @@
+Dec 11 10:05:06  [info] $Fatal Error Details = Array
+(
+    [message] => Could not connect to MailStore for @<p>Error message: <pre>An error occured while sending or receiving mail. Failed to connect to the server: :993.</pre><p>
+    [code] => 
+)
+
+
+Dec 11 10:05:06  [info] $backTrace = #0 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/CRM/Core/Error.php(339): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/CRM/Utils/Mail/EmailProcessor.php(175): CRM_Core_Error::fatal("Could not connect to MailStore for @<p>Error message: <pre>An error occured w...")
+#2 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/CRM/Utils/Mail/EmailProcessor.php(59): CRM_Utils_Mail_EmailProcessor::_process(TRUE, Object(CRM_Core_DAO_MailSettings), 0)
+#3 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/api/v3/Job.php(368): CRM_Utils_Mail_EmailProcessor::processBounces(0)
+#4 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(89): civicrm_api3_job_fetch_bounces((Array:2))
+#5 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#6 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#7 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("Job", "fetch_bounces", (Array:1), NULL)
+#8 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/CRM/Core/JobManager.php(145): civicrm_api("Job", "fetch_bounces", (Array:1))
+#9 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/CRM/Core/JobManager.php(79): CRM_Core_JobManager->executeJob(Object(CRM_Core_ScheduledJob))
+#10 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/api/v3/Job.php(99): CRM_Core_JobManager->execute(FALSE)
+#11 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/Civi/API/Provider/MagicFunctionProvider.php(89): civicrm_api3_job_execute((Array:2))
+#12 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/Civi/API/Kernel.php(169): Civi\API\Provider\MagicFunctionProvider->invoke((Array:9))
+#13 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/Civi/API/Kernel.php(100): Civi\API\Kernel->runRequest((Array:9))
+#14 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/api/api.php(23): Civi\API\Kernel->runSafe("Job", "execute", (Array:2), NULL)
+#15 /var/aegir/platforms/drupal-7.57/sites/all/modules/civicrm/drupal/drush/civicrm.drush.inc(1558): civicrm_api("Job", "execute", (Array:2))
+#16 phar:///usr/local/bin/drush/includes/command.inc(422): drush_civicrm_api("Job.execute", "auth=0")
+#17 phar:///usr/local/bin/drush/includes/command.inc(231): _drush_invoke_hooks((Array:37), (Array:2))
+#18 phar:///usr/local/bin/drush/includes/command.inc(199): drush_command("Job.execute", "auth=0")
+#19 phar:///usr/local/bin/drush/lib/Drush/Boot/BaseBoot.php(67): drush_dispatch((Array:37))
+#20 phar:///usr/local/bin/drush/includes/preflight.inc(66): Drush\Boot\BaseBoot->bootstrap_and_dispatch()
+#21 phar:///usr/local/bin/drush/includes/startup.inc(462): drush_main()
+#22 phar:///usr/local/bin/drush/includes/startup.inc(369): drush_run_main(FALSE, "/", "Phar detected. Proceeding to drush_main().")
+#23 phar:///usr/local/bin/drush/drush(114): drush_startup((Array:7))
+#24 /usr/local/bin/drush(10): require("phar:///usr/local/bin/drush/drush")
+#25 {main}
+
+
